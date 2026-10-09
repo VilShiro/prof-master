@@ -120,3 +120,25 @@ button:focus-visible {
     outline: 2px solid #2f5bff;
     outline-offset: 2px
 }
+.auth {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 16px
+}
+
+.auth input {
+    flex: 1 1 140px;
+    font: inherit;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    padding: 9px 12px
+}
+
+.ok {
+    color: #12805c;
+    margin-left: 12px;
+    font-size: 14px
+}

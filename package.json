@@ -1,0 +1,12 @@
+{
+  "name": "prof-mast",
+  "version": "1.0.0",
+  "description": "Автомобильный конфигуратор",
+  "main": "server.js",
+  "license": "ISC",
+  "author": "Vitaliy Levchuk",
+  "type": "commonjs",
+  "engines": { "node": ">=22.13" },
+  "scripts": { "main": "node server.js" },
+  "dependencies": { "express": "^4.19.2" }
+}
